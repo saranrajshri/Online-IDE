@@ -1,0 +1,21 @@
+$theme: dark;
+$bgcolor: #40403e;
+$font-white: #efefef;
+$sideBar-color: #383838;
+$fileDrawer-color: #262626;
+
+$font-size: 14px;
+$font-family: Arial, Helvetica, sans-serif;
+$font-color: #c3c3c1;
+
+body {
+  font-family: $font-family;
+  overflow: hidden;
+}
+@if ($theme == light) {
+  $bgcolor: white;
+  $font-color: #000;
+} @else {
+  $bgcolor: #40403e;
+  $font-color: #c3c3c1;
+}
